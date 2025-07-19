@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rushuo.dev | ポートフォリオ</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 20px 40px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        h1 {
+            font-size: 2.2rem;
+        }
+        h2 {
+            font-size: 1.5rem;
+            margin-top: 40px;
+            border-bottom: 2px solid #000;
+            padding-bottom: 5px;
+        }
+        .social {
+            margin-top: 10px;
+            font-size: 0.9rem;
+        }
+        .social a {
+            color: #1da1f2;
+            text-decoration: none;
+        }
+        .card {
+            background-color: #fff;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>rushuo.dev（るしゅお）</h1>
+        <div class="social">
+            <a href="https://x.com/work_rushuo" target="_blank">@work_rushuo</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <p>学生プログラマーのrushuoです。初心者ですが、現在実績を作るためにWeb制作などの依頼を募集しています！</p>
+            <p>今後、制作したサンプルなども掲載予定ですので、ぜひチェックしてみてください。</p>
+            <p><strong>DMでのご依頼、お待ちしております！</strong></p>
+        </div>
+
+        <h2>スキル</h2>
+        <div class="card">
+            <ul>
+                <li>HTML / CSS / JavaScript</li>
+                <li>Python</li>
+                <li>C言語</li>
+                <li>Web制作</li>
+            </ul>
+        </div>
+
+        <h2>実績・サンプル</h2>
+        <div class="card">
+            <p>現在準備中です。今後このセクションに制作例やコードのリンクを掲載予定です。</p>
+        </div>
+
+        <h2>お問い合わせ</h2>
+        <div class="card">
+            <p>X（旧Twitter）経由でご連絡ください：</p>
+            <p><a href="https://x.com/work_rushuo" target="_blank">@work_rushuo</a></p>
+        </div>
+    </div>
+</body>
+</html>
